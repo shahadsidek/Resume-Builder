@@ -144,7 +144,7 @@ a {
 .bars .bar {
     width: 100%;
     height: 2px;
-    background-color: #1A91F0;
+    background-color: white;
     transition: all 300ms ease-in-out;
 }
 
@@ -155,10 +155,6 @@ a {
 
 /* buttons */
 .btn {
-    font-size: 14.5px;
-    font-weight: 600;
-    padding: 1.4rem 1.6rem;
-    border-radius: 4px;
     display: inline-block;
 }
 
@@ -456,9 +452,67 @@ textarea {
 }
 
 
-.projects-items.preview-blk-list .preview-item span{
+.projects-items.preview-blk-list .preview-item span {
     display: block;
 }
 
 /*responsiveness*/
+@media screen and (min-width: 768px) {
+    .cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
 
+    .cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .cv-form-row {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
+}
+
+
+
+
+.print-btn{
+    margin: 13px; 
+    padding: 20px;
+    width: 150px;
+    outline: none;
+    border:none;
+    background-color: #1A91F0;
+    color: white;
+    font-size: 14.5px;
+    font-weight: 600;
+    padding: 1.4rem 1.6rem;
+    border-radius: 4px;
+}
+
+
+.print-btn-sc{
+    margin: 2rem 0 6rem 0;
+
+}
+
+
+.navbar-toggler-btn{
+    margin: 13px; 
+    padding: 9px;
+    outline: none;
+    border:none;
+    background-color: #1A91F0;
+    color: white;
+    font-size: 14.5px;
+    font-weight: 600;
+    border-radius: 4px;
+}
