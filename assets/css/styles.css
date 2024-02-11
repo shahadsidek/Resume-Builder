@@ -330,14 +330,14 @@ textarea {
     background-color: #9FA8DA;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    
+
 }
 
 .preview-cnt-r {
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 3rem 3rem 3rem 4rem;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -414,3 +414,51 @@ textarea {
 .preview-cnt-r .preview-blk-list .preview-item {
     margin-top: 1.8rem;
 }
+
+.achievements-items.preview-blk-list .preview-item span:first-child,
+.education-items.preview-blk-list .preview-item span:first-child,
+.experience-items.preview-blk-list .preview-item span:first-child {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 5px;
+}
+
+.education-items.preview-blk-list .preview-item span:nth-child(2),
+.experience-items.preview-blk-list .preview-item span:nth-child(2) {
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.education-items.preview-blk-list .preview-item span:nth-child(3),
+.experience-items.preview-blk-list .preview-item span:nth-child(3) {
+    font-style: italic;
+    margin-right: 1rem;
+}
+
+.education-items.preview-blk-list .preview-item span:nth-child(4),
+.education-items.preview-blk-list .preview-item span:nth-child(5),
+.experience-items.preview-blk-list .preview-item span:nth-child(4),
+.experience-items.preview-blk-list .preview-item span:nth-child(5) {
+    background-color: #9FA8DA;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    border-radius: 0.6rem;
+}
+
+.education-items.preview-blk-list .preview-item span:nth-child(6),
+.experience-items.preview-blk-list .preview-item span:nth-child(6) {
+    display: block;
+    font: 13px;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+
+.projects-items.preview-blk-list .preview-item span{
+    display: block;
+}
+
+/*responsiveness*/
+
